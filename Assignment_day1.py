@@ -42,12 +42,13 @@ last_name = input()
 print(f"Hello {last_name} {first_name}")
 
 #6. comma seperated numbers from users and generate a list and tuple
-
+print("enter the comma seperated elements")
 data = list(map(int,input().split(",")))
 print(data)
 print(tuple(data))
 
 #7. enter the filename with extension and print the extension
+print("Enter the filename")
 filename = input()
 index=filename.index(".")
 print(filename[index+1:])
